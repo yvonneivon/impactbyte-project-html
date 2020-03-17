@@ -1,0 +1,35 @@
+h1 {
+    font-family: "Righteous", cursive;
+    font-size: 46px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 34px;
+
+}
+
+p {
+    text-align: center;
+    font-family: "Arapey", serif;
+    font-size: 22px;
+    margin: auto;
+    width: 55%;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.photoBox {
+    background-color: red;
+    width: 100%;
+    height: 25%;
+    display: block;
+    margin: 2px;
+}
