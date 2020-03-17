@@ -1,6 +1,10 @@
+body {
+    background-color: thistle;
+}
+
 h1 {
     font-family: "Righteous", cursive;
-    font-size: 46px;
+    font-size: 52px;
     text-align: center;
 }
 
@@ -15,7 +19,9 @@ hr {
     width: 60%;
     margin-top: 30px;
     margin-bottom: 30px;
-
+    background-color: whitesmoke;
+    border: none;
+    height: 3px;
 }
 
 p {
@@ -27,20 +33,23 @@ p {
 }
 
 img {
-    height: 40%;
+    height: 300px;
+    width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-
+    border-radius: 180px;
+    border: 3px solid whitesmoke
 }
 
 .photoBox {
-    background-color: red;
+    background-color: transparent;
     width: 100%;
     height: 25%;
     display: block;
     margin: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .skills {
@@ -53,7 +62,8 @@ img {
     margin: 20px;
     width: 25%;
     height: 100%;
-    border: 2px solid gray;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
 
 }
 
